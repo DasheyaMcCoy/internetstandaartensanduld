@@ -1,0 +1,238 @@
+body {
+    background-color: black;
+}
+
+.headerimage {
+    width: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 40%;
+    position: absolute;
+    top:30%; 
+    right: 32%; 
+}
+
+header h2 {
+    font-family: Iceland, serif;
+    font-size: 65px; 
+    color: white;
+    position: absolute;
+    top:35%; 
+    right:29%; 
+}
+
+p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 10;
+    color: white;
+}
+
+header p {
+    
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    text-align: left;
+    top:48%; 
+    right: 35%; 
+    padding-left: 28%;
+}
+
+nav {
+    color: white;
+    font-family: Iceland, serif;
+    font-size: 45px; 
+    top: 5%;
+    right: 0%;
+    left: 5%;
+    color: white;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    word-spacing: normal;
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background:green;
+    font-size: 48px;
+}
+
+a:focus-visible{
+
+}
+
+
+h1{
+    color: white;
+    font-family: Iceland, serif;
+    font-size: 65px; 
+    padding-left: 10%;
+    padding-right: 0;
+    
+}
+
+#afleveringen {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.podcastimage{
+    width: 20%;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid green;
+    border-radius: 30px;
+}
+
+main a{
+    color: white;
+    font-family: Iceland, serif;
+    font-size: 35px; 
+    margin-left: 43%;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: green solid 2px;
+}
+
+.watis{
+    width: 40%;
+    border: 3px solid green;
+    margin-left: 10%;
+    position: relative;
+}
+
+main p{
+    
+    font-size: 30px; 
+    position: absolute;
+    top: 160%; 
+    right: 10%;
+    padding-left: 55%;
+}
+
+.computer {
+    width: 40%;
+    margin: 10%;
+    padding-left: 20%;
+    position: relative;
+}
+
+#info {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    top: 260%;
+    margin-left: 35%;
+    right: 35%;
+}
+
+ h2 {
+    font-family: Iceland, serif;
+}
+
+.earth {
+    width: 30%;
+    margin-top: 100%;
+    margin-left: 30%;
+}
+
+#overons{
+    width:90%;
+    top: 250%;
+    right: -20%;
+    position: absolute;
+
+}
+
+h3{
+    color: white;
+    font-family: Iceland, serif;
+    font-size: 45px; 
+    padding-left: 10%;
+     margin-top: 10%;
+     margin-left: 30%;
+}
+
+.jay-image{
+    width: 30%;
+    margin-left: 10%;
+}
+
+.jay {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+}
+
+.sam-image{
+    width: 30%;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+.sam{
+    width: 90%;
+    position: absolute;
+    top: 110%;
+    right: 10%;
+}
+
+.dasha-image{
+    width: 30%;
+    position: absolute;
+    top: 180%;
+    left: 10%;
+   
+}
+
+.dasha{
+    width: 90%;
+    position: absolute;
+    top: 200%;
+    right: 10%;
+    
+
+}
+
+.little-logo{
+    width: 15%;
+    margin-left: 80%;
+    margin-top: 60px;
+}
+
+.logo2 { 
+    width: 10%;
+    position: absolute;
+    top: 300%;
+    right: 10%;
+    padding: 10px;
+    margin-bottom: 70px;
+    
+}
+
+.footerabout{
+    position: absolute;
+    top: 300%;
+    margin-right: 30%;
+}
+
