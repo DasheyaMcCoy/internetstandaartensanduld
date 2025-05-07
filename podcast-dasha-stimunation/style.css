@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-.headerimage {
+header img{
     width: 100%;
     position: relative;
 }
@@ -14,22 +14,22 @@ body {
     right: 32%; 
 }
 
-header h2 {
-    font-family: Iceland, serif;
-    font-size: 65px; 
+header h1{
+    font-family: Orbitron;
+    font-size: 35px; 
     color: white;
     position: absolute;
-    top:35%; 
-    right:29%; 
+    top:40%; 
+    right:33%; 
 }
 
+
 p{
-    font-family: Montserrat, sans-serif;
-    font-weight: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
     color: white;
 }
 
-header p {
+header p{
     
     font-size: 24px;
     color: white;
@@ -40,10 +40,10 @@ header p {
     padding-left: 28%;
 }
 
-nav {
+nav{
     color: white;
-    font-family: Iceland, serif;
-    font-size: 45px; 
+    font-family: Orbitron;
+    font-size: 30px; 
     top: 5%;
     right: 0%;
     left: 5%;
@@ -52,33 +52,34 @@ nav {
     width: 100%;
     position: absolute;
     word-spacing: normal;
-    }
+}
 
-a {
+ul{
+        list-style-type: none;
+     }
+
+a{
     color: white;
     text-decoration: none;
+    margin: 100px;
 }
 
 a:hover{
-    background:green;
-    font-size: 48px;
-}
-
-a:focus-visible{
-
+    background:green; 
 }
 
 
-h1{
+#afleveringen h2{
     color: white;
-    font-family: Iceland, serif;
-    font-size: 65px; 
-    padding-left: 10%;
+    font-family: Orbitron;
+    font-size: 50px; 
+    font-weight: 500;
+    padding-left: 12%;
     padding-right: 0;
-    
-}
+    }
 
-#afleveringen {
+
+#afleveringen{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -90,7 +91,7 @@ h1{
     padding-bottom: 5%;
 }
 
-.podcastimage{
+#afleveringen img{
     width: 20%;
     padding: 15px;
     margin: 10px;
@@ -98,38 +99,56 @@ h1{
     border-radius: 30px;
 }
 
+#afleveringen img:hover{
+    width: 20%;
+    border: 7px solid green;
+    border-radius: 30px;
+}
+
+#afleveringen a{
+    width: auto;
+    margin: auto;
+    border:0px;
+    }
+
+#afleveringen a:hover{
+        background-color: black;
+}
+
 main a{
     color: white;
-    font-family: Iceland, serif;
-    font-size: 35px; 
+    font-family: Orbitron;
+    font-size: 25px; 
+    font-weight: 600;
     margin-left: 43%;
     margin-right: 10%;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 20%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border: green solid 2px;
 }
 
-.watis{
+main img{
     width: 40%;
     border: 3px solid green;
     margin-left: 10%;
+    margin-top: 10%;
     position: relative;
 }
+
 
 main p{
     
     font-size: 30px; 
     position: absolute;
-    top: 160%; 
+    top: 170%; 
     right: 10%;
     padding-left: 55%;
 }
 
-.computer {
+
+.computer{
     width: 40%;
     margin: 10%;
     padding-left: 20%;
@@ -138,80 +157,86 @@ main p{
 
 #info {
     color: white;
-    font-family: Montserrat, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
     position: absolute;
-    top: 260%;
+    top: 270%;
     margin-left: 35%;
     right: 35%;
 }
 
- h2 {
-    font-family: Iceland, serif;
-}
-
-.earth {
-    width: 30%;
-    margin-top: 100%;
-    margin-left: 30%;
-}
-
-#overons{
-    width:90%;
-    top: 250%;
-    right: -20%;
-    position: absolute;
-
-}
 
 h3{
     color: white;
-    font-family: Iceland, serif;
-    font-size: 45px; 
+    font-family: Orbitron;
+    font-size: 40px; 
     padding-left: 10%;
-     margin-top: 10%;
-     margin-left: 30%;
+    margin-top: 10%;
+    margin-left: 40%;
 }
 
-.jay-image{
-    width: 30%;
-    margin-left: 10%;
+#team h3 {
+    color: white;
+    font-family: Orbitron;
+    font-size: 40px; 
+    position: absolute;
+    top: 80%;
 }
 
 .jay {
     width: 90%;
+    float: left; 
+    display: inline;
+    top: 100%;
     position: absolute;
-    top: 50%;
 }
 
-.sam-image{
-    width: 30%;
-    position: absolute;
-    top: 100%;
-    left: 10%;
+.jay p{
+    width: 40%;
+    float: right; 
+    top: 40%;
+    left: 5%;
 }
+
 
 .sam{
     width: 90%;
+    top: 180%;
     position: absolute;
-    top: 110%;
-    right: 10%;
 }
 
-.dasha-image{
-    width: 30%;
-    position: absolute;
-    top: 180%;
-    left: 10%;
-   
+.sam p{
+    width: 40%;
+    float: right; 
+    top: 40%;
+    left: 5%;
 }
+
 
 .dasha{
     width: 90%;
+    top: 260%;
     position: absolute;
-    top: 200%;
-    right: 10%;
-    
+}
 
+.dasha p{
+    width: 40%;
+    float: right; 
+    top: 40%;
+    left: 5%;
+}
+
+.video{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 70%;
+    height: 100%;
+}
+
+.video iframe{
+ 
+    width: 70%;
+    height: 50%;
 }
 
 .little-logo{
@@ -230,9 +255,81 @@ h3{
     
 }
 
-.footerabout{
+footer{
     position: absolute;
-    top: 300%;
-    margin-right: 30%;
+    top: 370%;
+    left: 10%;
+    margin-right: 40%;
+    padding-top: 10%;
 }
 
+#gallery{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#gallery p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    position: relative;
+
+}
+
+.whatever{
+    background-color: green;
+    width: 20%;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin: 15px;
+    border: 3px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.whatever img{
+    border-radius: 30px;
+    width: 85%;
+    margin-top: 10%;
+}
+
+.whateverdescription p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+.whateverdescription {
+   
+    display: flex;
+    align-items: flex-end;
+    background-color: green;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin: 15px;
+    text-align: left;
+   
+}
+
+h4{
+    color: white;
+    font-family: Orbitron;
+    font-size: 20px; 
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#footerepisodes{
+    position: absolute;
+    top: 200%;
+    left: 10%;
+   
+}
